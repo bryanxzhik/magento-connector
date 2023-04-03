@@ -95,7 +95,7 @@ abstract class AbstractLocalize implements \JsonSerializable
      *
      * @return array
      */
-    public function jsonSerialize()
+    public function jsonSerialize() : mixed
     {
         $i=0;
         if ($this->options === null) {
